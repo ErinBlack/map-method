@@ -13,8 +13,7 @@ const caterpillarArray = [
 ];
 
 const butterflyArray = caterpillarArray.map(value => {
-    const newButterfly =  caterpillarToButterfly(value);
-    return newButterfly;
+    return caterpillarToButterfly(value);
 } );
 
 console.log('butterflyArray', butterflyArray)
