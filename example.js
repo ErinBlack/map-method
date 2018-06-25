@@ -10,6 +10,6 @@ const caterpillarArray = [
     'Candace'
 ];
 
-const butterflyArray = caterpillarArray.map(value => caterpillarToButterfly(value));
+const butterflyArray = caterpillarArray.map(value => ({name: caterpillar, isButterfly: true}));
 
 console.log('butterflyArray', butterflyArray)
